@@ -2,11 +2,7 @@
 Console.WriteLine("Lets play Coordinate game!");
 
 
-
 Random random = new Random();
-
-
-
 
 bool continue1 = true;
 
@@ -22,8 +18,6 @@ while (continue1)
             break;
             
         }
-
-
         else if (x < 0 && y > 0)
             Console.WriteLine("NW");
         else if (x < 0 && y == 0)
